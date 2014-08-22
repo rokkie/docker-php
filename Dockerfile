@@ -4,10 +4,10 @@ MAINTAINER Rocco Bruyn <rocco.bruyn@gmail.com>
 
 # Install packages
 RUN apt-get update && \
-	apt-get upgrade -y && \
+    apt-get upgrade -y && \
     apt-get install -y \
         curl \        
-		libapache2-mod-php5 \
+        libapache2-mod-php5 \
         libmemcached10 \        
         libssh2-1 \        
         libssh2-php \        
@@ -25,3 +25,4 @@ RUN apt-get update && \
 
 # Add info file 
 ADD info.php /var/www/html/info.php
+
