@@ -1,3 +1,2 @@
 all:
-    docker build -t rokkie/php .
-
+    sudo docker build -t rokkie/php .
